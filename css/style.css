@@ -1,0 +1,100 @@
+header{
+    text-align: center;
+    width: 100%;
+    height: 20em;
+    overflow: hidden;
+}
+
+header h1, header h2{
+    margin-top: 4em;
+    position: relative;
+    z-index: 2;
+    color: aliceblue;
+    text-shadow: #381b67 1px 1px 10px;
+    background-color: transparent;
+}
+
+#carousel{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    height: 20em;
+    overflow: hidden;
+}
+
+#carousel img{
+    height: 100%;
+    max-width: fit-content;
+    min-width: fit-content;
+    overflow: hidden;
+    z-index: 0;
+    margin: auto;
+    filter: grayscale(100%);
+}
+
+.accordion{
+    z-index: 2;
+    max-width: 700px;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    padding: 3em;
+    font-size: 10px;
+    bottom: 0;
+}
+
+#filler{
+    background-color: #381b67;
+    z-index: 2;
+}
+
+#menu{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+}
+
+#filler li{
+    list-style: none;
+}
+
+.btn-primary{
+    background-color: #381b67;
+    border: none;
+}
+
+header button{
+    position: relative;
+    z-index: 2;
+    color: aliceblue;
+    background-color: #381b67;
+    border-radius: 2em;
+    box-shadow: #381b67 1px 1px 2px;
+}
+
+header button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header button a:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#tourButton{
+    width: 100%;
+}
+
+#tourText{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.h6{
+    margin: .7em;
+}
